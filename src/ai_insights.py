@@ -72,7 +72,8 @@ def why_this_matters(title: str, age: int) -> str:
     prompt = f"""Explain in 1-2 simple sentences why this preventive recommendation is important for a {age}-year-old international student in the U.S.
 
 Recommendation: {title}"""
-    key = f"why_{hashlib.md5(f"{title}{age}".encode()).hexdigest()}"
+    raw = f"{title}{age}"
+key = f"why_{hashlib.md5(raw.encode()).hexdigest()}"
     return _call_ollama(prompt, key)
 
 
