@@ -43,6 +43,16 @@ shiny run --reload app.py
 ## Process Diagram
 
 ```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {
+  'primaryColor': '#FCE4EC',
+  'primaryTextColor': '#880E4F',
+  'primaryBorderColor': '#F48FB1',
+  'lineColor': '#EC407A',
+  'secondaryColor': '#FFF0F5',
+  'tertiaryColor': '#FFF0F5',
+  'fontFamily': 'Poppins, sans-serif',
+  'fontSize': '14px'
+}}}%%
 flowchart LR
     subgraph A ["1 · API"]
         A1["User Profile\n(age, vaccines, insurance)"]
@@ -79,6 +89,11 @@ flowchart LR
     B1 -->|DataFrame| C3
     B2 -->|clean text| D1
     D4 -->|cached result| C2
+
+    style A fill:#FFF0F5,stroke:#F48FB1,stroke-width:2px,color:#880E4F
+    style B fill:#FCE4EC,stroke:#EC407A,stroke-width:2px,color:#880E4F
+    style C fill:#F8BBD0,stroke:#EC407A,stroke-width:2px,color:#880E4F
+    style D fill:#F48FB1,stroke:#C2185B,stroke-width:2px,color:#fff
 ```
 
 ## Assignment Components
