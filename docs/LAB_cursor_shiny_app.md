@@ -1,9 +1,9 @@
-# LAB: Python Shiny Application - ForHer
+# LAB: Python Shiny Application - Zena
 
 ## App Structure
 
 ```text
-ForHer/
+Zena/
 ├── app.py                 # Main Shiny for Python app
 ├── src/
 │   ├── __init__.py
