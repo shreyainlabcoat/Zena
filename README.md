@@ -89,8 +89,4 @@ flowchart LR
 - **UI**: Python Shiny, reactive text, value boxes
 - **Visualizations**: Bar chart, pie chart, recommendations table, topics table
 
-## Lab Documentation
 
-- `docs/LAB_your_good_api_query.md` – API queries
-- `docs/LAB_cursor_shiny_app.md` – Shiny app structure
-- `docs/LAB_ai_reporter.md` – AI integration
