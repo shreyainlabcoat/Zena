@@ -2,7 +2,7 @@
 
 ## Overview
 
-ForHer uses AI to generate friendly, plain-language summaries of preventive health recommendations. This helps first-gen and international students understand U.S. healthcare guidance without medical jargon.
+Zena uses AI to generate friendly, plain-language summaries of preventive health recommendations. This helps first-gen and international students understand U.S. healthcare guidance without medical jargon.
 
 ## AI Provider: Ollama Cloud (Recommended)
 
